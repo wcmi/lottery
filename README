@@ -1,0 +1,4 @@
+solidity 文件： 编译 部署，node deploy.js
+
+
+public 和 src 文件： react 和web3部分
