@@ -38,8 +38,8 @@ class App extends Component {
         <header className="App-header">
           <img src="google.ico"  alt="logo" />
           <h1>hello weiwei</h1>
-          <label>magnager:{this.state.manageradd}</label>
-          <label>players num :{this.state.players.length}</label>
+          <label>magnager:{this.state.manageradd}</label><br/>
+          <label>players num :{this.state.players.length}</label><br/>
           <label>balance:{web3.utils.fromWei(this.state.balance,'ether')} ether</label>
 
           <form onSubmit={this.onsubmit}>
